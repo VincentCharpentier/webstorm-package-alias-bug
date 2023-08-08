@@ -1,5 +1,4 @@
 {
-    "extends": "web-ui/tsconfig.focus.json",
     "compilerOptions": {
         "paths": {
             "@lib/test": ["./packages/lib/test/*"]

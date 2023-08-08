@@ -1,3 +1,3 @@
-import { testFunction } from '@lib/test';
+import { testFunction } from "@lib/test";
 
 console.log(testFunction(1));
