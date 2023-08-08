@@ -1,0 +1,32 @@
+{
+    "extends": "./tsconfig.paths.json",
+    "compilerOptions": {
+        "isolatedModules": true,
+        "experimentalDecorators": true,
+        "target": "es6",
+        "module": "ESNext",
+        "moduleResolution": "bundler",
+        // Match ecmaVersion in .eslintrc.js
+        "lib": ["es2023", "dom", "dom.iterable", "es2019.array"],
+        "allowJs": true,
+        "jsx": "react",
+        "strict": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "strictBindCallApply": true,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "useUnknownInCatchVariables": false,
+        "strictPropertyInitialization": true,
+        "noEmit": true,
+        "baseUrl": ".",
+        "esModuleInterop": true,
+        "resolveJsonModule": true
+    },
+    "exclude": [
+        "node_modules",
+    ]
+}

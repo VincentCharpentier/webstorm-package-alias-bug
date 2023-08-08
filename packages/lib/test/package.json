@@ -1,0 +1,18 @@
+{
+    "name": "@lib/test",
+    "private": true,
+    "exports": {
+        ".": {
+            "node": "./main.ts",
+            "default": "./main.ts"
+        }
+    },
+    "volta": {
+        "extends": "../../../package.json"
+    },
+    "scripts": {
+        "test-unit": "run workspace:test-unit",
+        "lint": "run workspace:lint",
+        "typecheck": "run workspace:typecheck"
+    }
+}

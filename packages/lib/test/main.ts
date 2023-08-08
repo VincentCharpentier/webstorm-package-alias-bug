@@ -1,0 +1,1 @@
+export const testFunction = (a: number) => a * 2;
