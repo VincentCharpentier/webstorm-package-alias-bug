@@ -7,6 +7,7 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
+    "packages/apps/**/*",
     "packages/lib/*"
   ],
   "devDependencies": {
@@ -14,5 +15,9 @@
     "@yarnpkg/types": "4.0.0-rc.42",
     "typescript": "5.0.4"
   },
-  "packageManager": "yarn@3.6.1"
+  "packageManager": "yarn@4.0.0-rc.49",
+  "dependencies": {
+    "@events-ui-lib/user": "workspace:^",
+    "@lib/test": "workspace:^"
+  }
 }
