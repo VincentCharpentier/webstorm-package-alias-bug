@@ -15,7 +15,7 @@ const RAW_RUNTIME_STATE =
     },\
     {\
       "name": "@events-ui-lib/user",\
-      "reference": "workspace:packages/apps/events-ui/lib/user/user"\
+      "reference": "workspace:packages/apps/events-ui/lib/user"\
     },\
     {\
       "name": "@lib/test",\
@@ -25,7 +25,7 @@ const RAW_RUNTIME_STATE =
   "enableTopLevelFallback": true,\
   "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
   "fallbackExclusionList": [\
-    ["@events-ui-lib/user", ["workspace:packages/apps/events-ui/lib/user/user"]],\
+    ["@events-ui-lib/user", ["workspace:packages/apps/events-ui/lib/user"]],\
     ["@lib/test", ["workspace:packages/lib/test"]],\
     ["webstorm-package-alias-bug", ["workspace:."]]\
   ],\
@@ -36,7 +36,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@events-ui-lib/user", "workspace:packages/apps/events-ui/lib/user/user"],\
+          ["@events-ui-lib/user", "workspace:packages/apps/events-ui/lib/user"],\
           ["@lib/test", "workspace:packages/lib/test"],\
           ["@yarnpkg/pnpify", "virtual:0d3a25f7fb2854a8548eb18033ba324780ba38928bad55eef8e7aa8c2d786a4e971a778f28a9955a051332f6d143f380a53f6fccb8ad8e41da1a566147a39855#npm:2.4.0"],\
           ["@yarnpkg/types", "npm:4.0.0-rc.42"],\
@@ -56,10 +56,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@events-ui-lib/user", [\
-      ["workspace:packages/apps/events-ui/lib/user/user", {\
-        "packageLocation": "./packages/apps/events-ui/lib/user/user/",\
+      ["workspace:packages/apps/events-ui/lib/user", {\
+        "packageLocation": "./packages/apps/events-ui/lib/user/",\
         "packageDependencies": [\
-          ["@events-ui-lib/user", "workspace:packages/apps/events-ui/lib/user/user"]\
+          ["@events-ui-lib/user", "workspace:packages/apps/events-ui/lib/user"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -1531,7 +1531,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["webstorm-package-alias-bug", "workspace:."],\
-          ["@events-ui-lib/user", "workspace:packages/apps/events-ui/lib/user/user"],\
+          ["@events-ui-lib/user", "workspace:packages/apps/events-ui/lib/user"],\
           ["@lib/test", "workspace:packages/lib/test"],\
           ["@yarnpkg/pnpify", "virtual:0d3a25f7fb2854a8548eb18033ba324780ba38928bad55eef8e7aa8c2d786a4e971a778f28a9955a051332f6d143f380a53f6fccb8ad8e41da1a566147a39855#npm:2.4.0"],\
           ["@yarnpkg/types", "npm:4.0.0-rc.42"],\
