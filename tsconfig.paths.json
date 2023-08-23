@@ -1,8 +1,0 @@
-{
-    "compilerOptions": {
-        "paths": {
-            "@events-ui-lib/user": ["./packages/apps/events-ui/lib/user/*"],
-            "@lib/test": ["./packages/lib/test/*"]
-        }
-    }
-}

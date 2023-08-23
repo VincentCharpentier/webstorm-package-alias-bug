@@ -19,5 +19,8 @@
   "dependencies": {
     "@events-ui-lib/user": "workspace:^",
     "@lib/test": "workspace:^"
+  },
+  "volta": {
+    "node": "18.17.1"
   }
 }

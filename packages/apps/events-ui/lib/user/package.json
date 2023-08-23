@@ -1,0 +1,15 @@
+{
+    "name": "@events-ui-lib/user",
+    "private": true,
+    "environment": "browser",
+    "main": "user-has-track-data.ts",
+    "volta": {
+        "extends": "../../../../../package.json"
+    },
+    "scripts": {
+        "test-unit": "run workspace:test-unit",
+        "lint": "run workspace:lint",
+        "typecheck": "run workspace:typecheck"
+    },
+    "$schema": "../../../../../package.schema.json"
+}
